@@ -17,12 +17,17 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             //YOUR CODE HERE
+            Console.Write("input how many miles you have driven !");
+            double d = Convert.ToDouble(Console.ReadLine());
+            double fare = CalculateFare(d);
+            Console.Write("the total fare is {0:$0.00}", fare);
         }
 
         public static double CalculateFare(double distance)
         {
             //YOUR CODE HERE
-            return 0;
+
+            return  (2.40 + distance * 0.4);
 
         }
     }

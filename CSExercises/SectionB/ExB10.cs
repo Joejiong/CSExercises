@@ -24,7 +24,8 @@ namespace CSExercises
             double a = Convert .ToDouble (System.Console .ReadLine());
             double b = Convert.ToDouble(System.Console.ReadLine());
             double c = Convert.ToDouble(System.Console.ReadLine());
-            double AREA = CalculateArea(a,b,c); 
+            double AREA = CalculateArea(a,b,c);
+            Console.WriteLine("the area of the triangle is :{0}",AREA);
         }
 
         public static double CalculateArea(double a, double b, double c)

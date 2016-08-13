@@ -21,14 +21,19 @@ namespace CSExercises
             //YOUR CODE HERE
             Console.WriteLine("please input the salary!");
             string salaryStr = Console.ReadLine();
+            string s = CalculateIncome(salaryStr);
 
+            Console.WriteLine("the total result is {0}",s);
 
         }
 
         public static string CalculateIncome(string salaryStr)
         {
             //YOUR CODE HERE
-            return null;
+           double  s = Convert.ToDouble(salaryStr);
+            s = s * (1 + 0.1 + 0.03);
+          
+            return Convert.ToString(s);
         }
     }
 }
