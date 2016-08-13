@@ -19,6 +19,9 @@ namespace CSExercises
         public static void Main(string[] args)
         {
             //YOUR CODE HERE
+            Console.WriteLine("please input the salary!");
+            string salaryStr = Console.ReadLine();
+
 
         }
 
